@@ -6,7 +6,7 @@ function App() {
             <Tracker />
             <iframe
                 id="geeApp"
-                src="https://our-axon-435300-d4.projects.earthengine.app/view/agroclimate-v1"
+                src={import.meta.env.VITE_GEE_URL}
                 style={{
                     width: "100%",
                     height: "100vh",
