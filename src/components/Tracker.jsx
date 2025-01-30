@@ -206,8 +206,6 @@ const Tracker = () => {
 
         initTracking();
     }, []);
-
-    return <p>User Tracking Initialized</p>;
 };
 
 export default Tracker;
